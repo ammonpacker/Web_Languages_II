@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<title>Web Lang II Project 1</title>
+
+<div class="container">
+    <h1>Report and Alien Abduction</h1>
+            <form id="myForm" action="report.php" method="post">
+                  <div class="form-group" id="form">
+                    <label for="firstName" >First Name:</label>
+                    <input type="text" class="form-control" width="50%" name="firstName" id="firstName" placeholder="First name" required><br/>
+
+                    <label for="lastName" >Last name:</label>
+                    <input type="text" class="form-control" name="lastName" id="lastName" placeholder="Last name" required><br/>
+
+                    <label for="email" >Email:</label>
+                    <input type="email" class="form-control" name="email" id="email" placeholder="something@something.com" required><br/>
+                    
+                    <label for="whenithappened" >When did it happen?</label>
+                    <input type="date" id="whenithappened" class="form-control" name="whenithappened"/><br/>
+                      
+                    <label for="seendog">Have you seen my dog?</label>
+                    Yes <input type="radio" value="Yes" id="seendog" class="" name="seendog">
+                    No <input type="radio" value="No" id="seendog" class="" name="seendog"><br/><br/>
+                      
+                    <label for="comments">Additional Comments:</label>
+                    <textarea id="comments" name="comments" class="form-control" rows="3" cols="50"></textarea><br/>
+
+
+                  <button type="submit" class="btn btn-success btn-lg">Report Abduction</button>
+                </div>
+            </form>
+          </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+  
+
+
+
+</body>
+
+</html>
