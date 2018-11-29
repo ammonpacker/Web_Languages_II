@@ -4,7 +4,7 @@
 	$from =  "ammon.packer@gmail.com";
 	
 	//building database connection      	
-	$dbc = mysqli_connect('localhost','ammonp93_dgmusr','CA}x]ee1&G*%','ammonp93_dgm3760') or die('Connection to the Database failed.');           
+	$dbc = mysqli_connect('localhost','ammonp93_dgmusr','CA}x]4323&G*%','ammonp93_dgm3760') or die('Connection to the Database failed.');           
 	
 	//build query
 	$query = "SELECT * FROM Newsletter";
