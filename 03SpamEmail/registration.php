@@ -6,7 +6,7 @@
 	 
 	
 	//building database connection      	
-	$dbConnection = mysqli_connect('localhost','ammonp93_dgmusr','CA}x]ee1&G*%','ammonp93_dgm3760') or die('Connection to the Database failed.');           
+	$dbConnection = mysqli_connect('localhost','ammonp93_dgmusr','C345&G*%','ammonp93_dgm3760') or die('Connection to the Database failed.');           
 	
 	//build query
 	$query = "INSERT INTO Newsletter (first, last, email)" 	 
