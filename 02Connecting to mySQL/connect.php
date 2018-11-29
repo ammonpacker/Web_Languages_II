@@ -9,7 +9,7 @@
 	 
 	
 	//building database connection      	
-	$dbConnection = mysqli_connect('localhost','ammonp93_dgmusr','CA}x]ee1&G*%','ammonp93_dgm3760') or die('Connection to the Database failed.');           
+	$dbConnection = mysqli_connect('localhost','ammonp93_dgmusr','sfrewdd123&G*%','ammonp93_dgm3760') or die('Connection to the Database failed.');           
 	
 	//build query
 	$query = "INSERT INTO alien_abduction (first, last, when_it_happened, seen_dog, email, comments)" 	 
